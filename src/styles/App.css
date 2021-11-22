@@ -1,0 +1,169 @@
+.App {
+  height: 100vh;
+  background-color: #ff8b93;
+  overflow: scroll;
+  text-align: left;
+}
+
+.container {
+  width: 100%;
+  padding: 2%;
+  background-color: #5d7985;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.header-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  align-content:space-around;
+  gap: 20px;
+}
+
+.header {
+  margin: 0;
+  font-family: jaf-lapture-display, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 7em;
+}
+
+.sub-text {
+  font-family: jaf-facitweb, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  color: white;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(left, #ffd595 20%, #91c9fa 50%, #ffff97 75%);
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-animation 10s ease 0s infinite;
+}
+
+.gif-box a {
+  font-family: jaf-facitweb, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+  color: rgb(222, 91, 76);
+}
+
+.content-container {
+  display: flex;
+}
+.mint-container {
+  margin-top: 20px;
+  color: #eda282;
+}
+
+.gif-container {
+  width:95%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: space-between;
+}
+
+.gif-box {
+  width: 20%;
+  padding: 10px;
+  background-color: #c5d3bd;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.grinder-gif {
+  width: 100%;
+}
+
+.cta-button {
+  height: 45px;
+  border: 0;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(118, 118, 118);
+}
+
+.connect-wallet-button {
+  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.mint-button {
+  background: -webkit-linear-gradient(left, #ffff97, #22a3ff);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  margin-right: 15px;
+}
+
+.opensea-button {
+  background-color: rgb(32, 129, 226);
+}
+
+.mint-count {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* KeyFrames */
+@-webkit-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
