@@ -7,7 +7,7 @@ const WalletUi = (props) => {
     const [wallet, setWallet] = useState("");
     const [contract, setContract] = useState();
     const [mintingActive, setMintingActive] = useState("");
-    const PRICE = '0.1';
+    const PRICE = props.price;
     const checkIfWalletIsConnected = async () => {
         const { ethereum } = window; 
         if (!ethereum) {

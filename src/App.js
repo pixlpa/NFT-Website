@@ -20,7 +20,7 @@ const App = () => {
             <br /><a href={"https://etherscan.io/address/"+CONTRACT_ADDRESS }>View Contract on Etherscan</a>
           </div>
         </div>
-        <WalletUi />
+        <WalletUi contract={CONTRACT_ADDRESS} price={'0.1'} />
         </div>
         <div className="footer-container">
         </div>
