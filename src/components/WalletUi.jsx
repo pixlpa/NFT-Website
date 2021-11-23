@@ -78,7 +78,7 @@ const WalletUi = (props) => {
             console.log(error)
             }
     }
-a
+
     const askContractToMintNft = async () => {
         try {
           const { ethereum } = window;    
